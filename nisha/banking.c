@@ -72,7 +72,7 @@ printf("your current blancepr %d", amount);
 else
 
 {
-    printf("please creat your account first: ");
+    printf("please creat your account : ");
 }
 
 
