@@ -42,10 +42,10 @@ while (choice!=0)
 }
 void withdraw()
 {
-long long int check;
-printf("enter your 11 digit number: ");
-scanf("%lld", &check);
-if (acc_no == check){
+
+
+
+if (acc_no != 0){
 printf("enter");
 scanf("%d", &withdrawalamount);
 amount-=withdrawalamount;
@@ -62,10 +62,9 @@ else
 }
 void checkblance()
 {
-long long int check;
-printf("enter your 11 digit number: ");
-scanf("%lld", &check);
-if(acc_no == check)
+
+
+if(acc_no !=0)
 {
 printf("your current blancepr %d", amount);
 }
@@ -73,9 +72,8 @@ printf("your current blancepr %d", amount);
 else
 
 {
-    printf("please creat your account first: ");
+    printf("please creat your account : ");
 }
-
 
 
 
